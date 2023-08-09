@@ -20,21 +20,24 @@
   
   /* Sidebar */
   .sidebar {
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8); /* Adjust the alpha value for the desired opacity */
     color: white;
     height: 100%;
     overflow-y: auto;
-   /* add rounded edges */
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
     padding: 0px;
     width: 350px;
-    /* distance the sidebar more to the right*/
-    margin-left: 10px;
-    /* center align the sidebar vertically  */
+    margin-left: 15px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  
+    /* Add the blur glow effect */
+    box-shadow: 0 0 20px #FFE500; /* Adjust the color and spread as needed */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
   }
+  
   .top_section {
     display: flex; 
     align-items: center;
