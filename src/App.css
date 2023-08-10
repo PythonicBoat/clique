@@ -25,7 +25,7 @@
     height: 100%;
     overflow-y: auto;
     border-radius: 15px;
-    padding: 0px;
+    padding: px;
     width: 350px;
     margin-left: 15px;
     margin-top: 200px;
@@ -34,7 +34,7 @@
     justify-content: space-between;
   
     /* Add the blur glow effect */
-    box-shadow: 0 0 20px #FFE500; /* Adjust the color and spread as needed */
+    box-shadow: 0 0 25px #FFE500; /* Adjust the color and spread as needed */
     backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
   }
   
@@ -42,7 +42,7 @@
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    padding: 15px 15px;
+    padding: 20px 20px;
   }
   .logo {
     font-size: 19 px;
@@ -64,7 +64,7 @@
     display: flex;
     color: white;
     gap: 20px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-left: 4px solid transparent;
   }
   .link:hover {
